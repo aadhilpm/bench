@@ -374,12 +374,7 @@ def parse_commandline_args():
 	parser.add_argument('--frappe-branch', dest='frappe_branch', action='store',
 		help='Clone a particular branch of frappe')
 	
-	parser.add_argument('--erpnext-repo-url', dest='erpnext_repo_url', action='store', default='https://github.com/frappe/erpnext',
-		help='Clone erpnext from the given url')
 	
-	parser.add_argument('--erpnext-branch', dest='erpnext_branch', action='store',
-		help='Clone a particular branch of erpnext')
-
 	parser.add_argument('--without-erpnext', dest='without_erpnext', action='store_true', default=False,
 		help='Prevent fetching ERPNext')
 
